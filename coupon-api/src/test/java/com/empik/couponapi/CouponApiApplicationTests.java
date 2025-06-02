@@ -1,12 +1,13 @@
-package com.empik.couponservice;
+package com.empik.couponapi;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class CouponServiceApplicationTests {
+class CouponApiApplicationTests {
 
     @Test
     void contextLoads() {
     }
+
 }

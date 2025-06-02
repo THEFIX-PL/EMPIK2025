@@ -20,7 +20,7 @@ public class ApiGatewayApplication {
         return builder.routes()
                 .route("coupon", r -> r.path("/api/coupon/**")
                         .filters(f -> f.rewritePath("/api/coupon/(?<segment>.*)", "/${segment}"))
-                        .uri("lb://COUPON-SERVICE"))
+                        .uri("lb://COUPON-API"))
                 .build();
     }
 }
